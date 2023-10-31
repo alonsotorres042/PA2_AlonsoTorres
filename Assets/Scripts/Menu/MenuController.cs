@@ -7,9 +7,11 @@ using UnityEngine.SceneManagement;
 public class MenuController : MonoBehaviour
 {
     public Button btnPlay;
+    AudioManager _audioManager;
     // Start is called before the first frame update
     void Start()
     {
+        _audioManager.AudioSoucerManagerment.Play();
         btnPlay.onClick.AddListener(() => Play());
     }
 

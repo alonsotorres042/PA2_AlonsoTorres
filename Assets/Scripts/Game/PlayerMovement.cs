@@ -15,8 +15,8 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (up == KeyCode.None) up = KeyCode.W;
-        if (down == KeyCode.None) down = KeyCode.S;
+        if (up == KeyCode.None) up = KeyCode.UpArrow;
+        if (down == KeyCode.None) down = KeyCode.DownArrow;
         myRB = GetComponent<Rigidbody2D>();
         SetMinMax();
     }
