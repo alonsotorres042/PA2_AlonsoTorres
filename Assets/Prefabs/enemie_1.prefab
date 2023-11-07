@@ -121,7 +121,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   frame: 1
-  lifeChanges: 0
+  lifeChanges: -2
 --- !u!50 &-6776838674803608264
 Rigidbody2D:
   serializedVersion: 4

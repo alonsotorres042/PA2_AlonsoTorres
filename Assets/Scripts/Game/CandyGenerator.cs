@@ -13,6 +13,7 @@ public class CandyGenerator : MonoBehaviour
     private float limitSuperior;
     private float limitInferior;
     public List<GameObject> actual_candies = new List<GameObject>();
+    public Score_SO Score;
 
     void Awake()
     {

@@ -121,7 +121,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   frame: 0
-  lifeChanges: 0
+  lifeChanges: -1
 --- !u!61 &5755253541458558898
 BoxCollider2D:
   m_ObjectHideFlags: 0

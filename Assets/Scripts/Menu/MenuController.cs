@@ -14,7 +14,6 @@ public class MenuController : MonoBehaviour
         _audioManager.AudioSoucerManagerment.Play();
         btnPlay.onClick.AddListener(() => Play());
     }
-
     public void Play()
     {
         SceneManager.LoadScene("Game");

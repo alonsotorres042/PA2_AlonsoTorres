@@ -17,21 +17,10 @@
             ],
             "bindings": [
                 {
-                    "name": "",
-                    "id": "a728fc41-5895-4279-8ac8-6c377fd8b5b3",
-                    "path": "<Keyboard>/w",
-                    "interactions": "Hold",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Moves",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
                     "name": "1D Axis",
                     "id": "304c5c71-2539-4e32-ae37-0a210fffc749",
                     "path": "1DAxis",
-                    "interactions": "",
+                    "interactions": "Press",
                     "processors": "",
                     "groups": "",
                     "action": "Moves",

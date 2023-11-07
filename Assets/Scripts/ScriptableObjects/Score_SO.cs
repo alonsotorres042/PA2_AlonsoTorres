@@ -4,5 +4,6 @@ using UnityEngine;
 
 public class Score_SO : ScriptableObject
 {
-    int Score, MaxScore;
+    public int Score = 0;
+    public int MaxScore = 0;
 }

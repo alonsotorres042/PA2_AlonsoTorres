@@ -13,10 +13,4 @@ public class bgScaler : MonoBehaviour
         width = height * Screen.width / Screen.height;
         transform.localScale = new Vector3(width, height, 1f);
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 }
