@@ -6,18 +6,9 @@
             "id": "6f40a50c-b99a-4020-bf0b-6974d2d1e269",
             "actions": [
                 {
-                    "name": "Up",
+                    "name": "Moves",
                     "type": "Button",
                     "id": "90687d06-4460-489c-b7b9-f3eedd512d38",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "Down",
-                    "type": "Button",
-                    "id": "fec925f4-18c6-4445-9f94-a85711415594",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -32,20 +23,42 @@
                     "interactions": "Hold",
                     "processors": "",
                     "groups": "",
-                    "action": "Up",
+                    "action": "Moves",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "",
-                    "id": "622b19bc-6a52-444f-8740-712b6db0799a",
+                    "name": "1D Axis",
+                    "id": "304c5c71-2539-4e32-ae37-0a210fffc749",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Moves",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Negative",
+                    "id": "4d18664d-9602-4657-b500-602d1bb2ebbd",
                     "path": "<Keyboard>/s",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Down",
+                    "action": "Moves",
                     "isComposite": false,
-                    "isPartOfComposite": false
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Positive",
+                    "id": "384761e8-2054-4159-a221-5f867ef03273",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Moves",
+                    "isComposite": false,
+                    "isPartOfComposite": true
                 }
             ]
         }

@@ -15,7 +15,7 @@ public class MenuController : MonoBehaviour
         btnPlay.onClick.AddListener(() => Play());
     }
 
-    void Play()
+    public void Play()
     {
         SceneManager.LoadScene("Game");
     }

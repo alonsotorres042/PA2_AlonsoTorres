@@ -7,7 +7,7 @@ public class EnemyGenerator : MonoBehaviour
 {
     public static EnemyGenerator instance;
     public List<GameObject> Enemies = new List<GameObject>();
-    private float time_to_create = 4f;
+    private float time_to_create = 2f;
     private float actual_time = 0f;
     private float limitSuperior;
     private float limitInferior;
